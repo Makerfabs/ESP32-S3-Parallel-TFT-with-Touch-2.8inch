@@ -45,13 +45,4 @@ void setup()
 
 void loop()
 {
-    int32_t x, y;
-    if (lcd.getTouch(&x, &y))
-    {
-        Serial.println(x);
-        Serial.println(y);
-
-        lcd.fillRect(x - 2, y - 2, 5, 5, TFT_RED);
-    }
-    delay(100);
 }
