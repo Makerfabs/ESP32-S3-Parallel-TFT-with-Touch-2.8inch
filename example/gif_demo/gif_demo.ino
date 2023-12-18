@@ -19,17 +19,19 @@
 
 LGFX lcd;
 
-#define GIF_NUM 4
+#define GIF_NUM 5
 String gif_list[GIF_NUM] =
     {
-        "/genshi1.gif",
-        "/genshi2.gif",
-        "/genshi3.gif",
-        "/genshi4.gif"};
+        "/d1.gif",
+        "/d2.gif",
+        "/d3.gif",
+        "/d4.gif",
+        "/d5.gif"};
 int gif_bg[GIF_NUM] =
     {
         TFT_WHITE,
-        TFT_WHITE,
+        TFT_BLACK,
+        TFT_BLACK,
         TFT_BLACK,
         TFT_BLACK};
 
